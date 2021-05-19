@@ -145,6 +145,7 @@ bool Board::is_connected(City src, City dst)
     return false;
 }
 
+
 ostream &pandemic::operator<<(ostream &os, const Board &board)
 {
 

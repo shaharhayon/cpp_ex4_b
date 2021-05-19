@@ -9,7 +9,7 @@ namespace pandemic
     class Board
     {
     private:
-        std::map<int, std::string> _enum_to_string;
+        // std::map<int, std::string> _enum_to_string;
 
     public:
         Board();
@@ -21,5 +21,6 @@ namespace pandemic
         std::array<bool, 4> _cures = {false};
         void remove_cures();
         void remove_stations();
+        std::map<int, std::string> _enum_to_string;
     };
 }

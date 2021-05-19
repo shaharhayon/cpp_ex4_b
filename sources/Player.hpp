@@ -26,5 +26,7 @@ namespace pandemic
         virtual Player& build();
         virtual Player& discover_cure(Color color);
         virtual Player& treat(City city);
+        City getCity();
+        const std::vector<City>& getDeck();
     };
 }

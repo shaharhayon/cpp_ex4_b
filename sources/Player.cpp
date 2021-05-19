@@ -133,3 +133,11 @@ int Player::num_of_cards(Color color){
     }
     return count;
 }
+
+City Player::getCity(){
+    return this->_currentCity;
+}
+
+const std::vector<City>& Player::getDeck(){
+    return this->_cards;
+}
